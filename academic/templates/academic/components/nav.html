@@ -1,0 +1,23 @@
+{% load static %}
+<nav class="top-nav">
+    <div>
+        <ul>
+        <div class="nav-elemets">
+            <li><a href="#">Student Portal</a></li>
+            <li><a href="#">Odel</a></li>
+            <li><a href="#">Staff Portal</a></li>
+            <li><a href="#">Tenders(1)</a></li>
+            <li><a href="#">Careers(0)</a></li>
+        </div>
+            <li>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <input type="search" name="search" id="search-field" placeholder="start typing">
+                </form>
+            <li>
+        </ul>
+
+    </div>
+    <img class="accessibility" src="{% static 'academic/images/wheel_left_wh.svg' %}" alt="">
+    {% comment %} <a class="accessibility" href="#"><i class="fa-brands fa-accessible-icon"></i></a> {% endcomment %}
+</nav>

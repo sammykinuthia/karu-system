@@ -1,0 +1,15 @@
+{% extends 'academic/base.html' %}
+{% block body %}
+{% include "academic/components/nav.html" %}
+{% include "academic/components/main-nav.html" %}
+<div class="container-fluid">
+    <div class="slider">
+
+    </div>
+    <!-- mini-about -->
+ {% include 'academic/components/mini-about-section.html' %}
+ <!-- news -->
+{% include 'academic/components/mini-news-section' %}
+</div>
+
+{% endblock body %}

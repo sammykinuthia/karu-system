@@ -1,0 +1,49 @@
+<section class="news">
+    <h3>NEWS| <a href="#">news & announcements</a></h3>
+    
+
+<div class="news-cards">
+
+
+    <div class="card">
+        <div class="card-img">
+            <img src="https://source.unsplash.com/gySMaocSdqs/200x200" alt="Unsplash computer image with cat">
+
+        </div>
+        <div class="card-text">
+            <a href="#">Onboarding Workshop for New Staff Members</a>
+        </div>
+    </div>
+
+<!--  -->
+
+    <div class="card">
+        <div class="card-img">
+            <img src="https://karu.ac.ke/onboarding-workshop-for-new-staff-members/" alt="">
+        </div>
+        <div class="card-text">
+            <a href="#">Onboarding Workshop for New Staff Members</a>
+        </div>
+    </div>
+<!--  -->
+
+    <div class="card">
+        <div class="card-img">
+            <img src="https://karu.ac.ke/onboarding-workshop-for-new-staff-members/" alt="">
+        </div>
+        <div class="card-text">
+            <a href="#">Onboarding Workshop for New Staff Members</a>
+        </div>
+    </div>
+<!--  -->
+
+    <div class="card">
+        <div class="card-img">
+            <img src="https://karu.ac.ke/onboarding-workshop-for-new-staff-members/" alt="">
+        </div>
+        <div class="card-text">
+            <a href="#">Onboarding Workshop for New Staff Members</a>
+        </div>
+    </div>
+</div>
+</section>
